@@ -1,0 +1,22 @@
+body {
+	width: 100%;
+	font-family: Arial, sans-serif;
+	background: #fff;
+	color: #646060;
+}
+
+a {
+	color: #fff;
+}
+
+/* styling for nav bar at top of page */
+.nav-bar {
+	padding: 30px;
+	background: #646060;
+	color: #fff;
+	font-size: 1em;
+}
+
+.nav-borders {
+	border-right: solid 1px;
+}
