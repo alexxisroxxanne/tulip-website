@@ -36,14 +36,24 @@ a:visited {
 
 /* styling for image directory */
 .img-dir {
-	opacity: 0.75;
+	opacity: 0.65;
 }
 .img-dir:hover {
 	opacity: 1.0;
 }
 
+/* carousel hide controls */
+.carousel-control.left {
+	background: transparent;
+}
+.carousel-control.right {
+	background: transparent;
+}
 
-/* styling for slide show */
-.slideshow {
-
+/* remove margin and padding */
+.rem-marg {
+	margin: 0px -30px;
+}
+.rem-pad {
+	padding: 0px;
 }
