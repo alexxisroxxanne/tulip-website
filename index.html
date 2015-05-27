@@ -5,6 +5,9 @@
 		<title>Tulip Medical Products</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-1.11.3.js"></script>
+				<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="js/effects.js"></script>
 	</head>
 	<body>
@@ -82,6 +85,14 @@
 						<a class="right carousel-control" href="#image-carousel" role="button" data-slide="next">
 							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 						</a>
+						<div id="carouselButtons">
+							<button id="playButton" type="button" class="btn btn-link btn-xs">
+								<span class="glyphicon glyphicon-play"></span>
+							</button>
+							<button id="pauseButton" type="button" class="btn btn-link btn-xs">
+								<span class="glyphicon glyphicon-pause"></span>
+							</button>
+						</div>
 					</div> <!-- end carousel -->
 				</div>
 			</div> <!-- end row -->
@@ -112,7 +123,9 @@
 
 		</div> <!-- end containter -->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!--
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	-->
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <script src="js/bootstrap.min.js"></script>
 
