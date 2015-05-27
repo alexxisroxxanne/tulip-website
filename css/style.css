@@ -5,18 +5,45 @@ body {
 	color: #646060;
 }
 
-a {
+
+/* styling for links */
+a:link {
 	color: #fff;
 }
+a:hover {
+	color: #fff;
+}
+a:visited {
+	color: #fff;
+}
+
 
 /* styling for nav bar at top of page */
 .nav-bar {
 	padding: 30px;
 	background: #646060;
+	opacity: 0.5;
 	color: #fff;
 	font-size: 1em;
 }
-
+.nav-bar:hover {
+	opacity: 0.75;
+}
 .nav-borders {
 	border-right: solid 1px;
+}
+
+
+/* styling for image directory */
+.img-dir {
+	opacity: 0.75;
+}
+.img-dir:hover {
+	opacity: 1.0;
+}
+
+
+/* styling for slide show */
+.slideshow {
+
 }
