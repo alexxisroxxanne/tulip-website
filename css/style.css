@@ -42,12 +42,33 @@ a:visited {
 	opacity: 1.0;
 }
 
-/* carousel hide controls */
+/* carousel controls */
 .carousel-control.left {
 	background: transparent;
 }
 .carousel-control.right {
 	background: transparent;
+}
+#carouselButtons {
+	margin-left: 50%;
+	margin-right: 50%;
+	bottom: 20px;
+	position: absolute;
+	display: flex;
+}
+.btn-link {
+	color: #646060;
+}
+.btn-link:hover {
+	color: #9b5ba5;
+}
+.btn-link:active {
+	color: #9b5ba5;
+	border-color: #9b5ba5;
+}
+.btn-link:focus {
+	color: #9b5ba5;
+	border-color: #9b5ba5;
 }
 
 /* remove margin and padding */
