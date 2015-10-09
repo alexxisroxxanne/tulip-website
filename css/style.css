@@ -42,7 +42,11 @@ a:visited {
 	opacity: 1.0;
 }
 
-/* carousel controls */
+/* carousel & carousel controls */
+.carousel-height {
+	max-height: 500px;
+	/*width: 100%;*/
+}
 .carousel-control.left {
 	background: transparent;
 }
