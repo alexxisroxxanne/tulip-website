@@ -90,3 +90,38 @@ a:visited {
 	font-weight: bold;
 	text-align: center;
 }
+
+
+
+/* other page css styling */
+
+.side-bar {
+	max-width: 16.66%;
+}
+
+.side-bar-left {
+	border-right-style: solid;
+	border-right-color: #9b5ba5;
+	/*padding-left: 10px;*/
+}
+
+.side-bar-right {
+	border-left-style: solid;
+	border-left-color: #9b5ba5;
+	/*padding-right: 10px;*/
+}
+
+.main-container {
+	max-width: 66.67%;
+}
+.separate-item {
+	padding: 10px 10px;
+	border-top-style: dotted;
+	border-top-color: #9b5ba5;
+}
+
+
+.buy-link:link {
+	color: #9b5ba5;
+	font-weight: bold;
+}
